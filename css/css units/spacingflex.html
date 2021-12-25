@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .hello>div{
+            border: 2px solid palevioletred;
+            background-color: skyblue;
+            padding: 10%;
+            margin: 1%;
+            font-size: 120px;
+
+           
+            
+        }
+        .hello{
+            border: pink 2px solid;
+            display: flex;
+            /* row,row-reverse,column,column-reverse*/
+            flex-direction: row;
+            /*flex-start,flex-end,space-between,space-evenly,space-arounf*/
+
+            justify-content: space-evenly;
+            /*this is making responsive ,once check inspect by keep and removing flex-wrap*/
+            flex-wrap: wrap;
+            align-items: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="hello">
+        <div>a</div>
+        <div>b</div>
+        <div>c</div>
+        <div>d</div>
+        <div>e</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+.header{
+    background-color: #ddd;
+    
+}
+.child{
+    border: 2px solid #ddd;
+    padding:2%;
+    margin:2%;
+    text-align: center;
+    width: 23%;
+    font-size: 25px;
+}
+h4{
+    color: blue;
+}
+s{
+    color: red;
+}
+button{
+    background-color: orange;
+    color:white;
+    padding:1%;
+    
+}
+.child img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .child{
+        width: 90%;
+        background-color: #ddd;
+    }
+     .child img{
+         
+     }
+}
+
+@media only screen and (min-width:605px) and (max-width:371px){
+    
+}

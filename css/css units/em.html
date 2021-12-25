@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 1 em =16 px*/
+        .relative1{
+            font-size: 2em;
+            color: red;
+        }
+        .absolute1{
+            font-size: 32px;
+            color: red;
+        }
+
+
+        div{
+            font-size: 32px;
+        }
+        /* before div addition  1 em =16 px but now we added
+        parent as 1 em=32 px thus relative font size is 64 px*/
+        .relative{
+            font-size: 2em;
+        }
+        .absolute{
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h3 class="relative1">Relative</h3>
+    </div>
+    <div>
+        <h3 class="absolute1">absolute</h3>
+    </div>
+    <div>
+        <h3 class="relative">Relative</h3>
+    </div>
+    <div>
+        <h3 class="absolute">absolute</h3>
+    </div>
+    
+</body>
+</html>
